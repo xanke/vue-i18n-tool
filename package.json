@@ -2,10 +2,11 @@
   "name": "vue-i18n-tool",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
   },
-  "author": "",
+  "author": "xanked@gmail.com",
+  "private": false,
   "license": "ISC",
   "dependencies": {
     "@babel/parser": "^7.13.10",
