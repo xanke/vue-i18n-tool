@@ -1,0 +1,54 @@
+{
+	"components__HelloWorld": [
+		{
+			"key": "170227",
+			"content": "生态系统",
+			"baidu_en": "ecosystem"
+		},
+		{
+			"key": "45c32e",
+			"content": "有关如何配置/自定义此项目的指南和方法，",
+			"baidu_en": "For guidance and methods on how to configure / customize this project,"
+		},
+		{
+			"key": "7e4042",
+			"content": "请查看",
+			"baidu_en": "Please check"
+		},
+		{
+			"key": "9a9a08",
+			"content": "vue-cli 文档",
+			"baidu_en": "Vue cli document"
+		},
+		{
+			"key": "e4bb40",
+			"content": "已安装的CLI插件",
+			"baidu_en": "Installed cli plug ins"
+		},
+		{
+			"key": "4092ed",
+			"content": "基本",
+			"baidu_en": "basic"
+		},
+		{
+			"key": "c86fba",
+			"content": "核心文件",
+			"baidu_en": "Core document"
+		},
+		{
+			"key": "a5f625",
+			"content": "论坛",
+			"baidu_en": "forum"
+		},
+		{
+			"key": "6f459b",
+			"content": "社区聊天",
+			"baidu_en": "Community chat"
+		},
+		{
+			"key": "1d9c15",
+			"content": "新闻",
+			"baidu_en": "Journalism"
+		}
+	]
+}
