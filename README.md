@@ -10,6 +10,45 @@ cd ./sample
 node ./scripts/i18n.js
 ```
 
+### 配置参考
+
+#### basePath
+
+- Type: `string`
+- Default: `./`
+
+项目目录
+
+#### filePaths
+
+- Type: `Array<string>`
+- Default: `[]`
+
+具体需要翻译的目录，为空遍历全部
+
+#### skipFiles
+
+- Type: `Array<string>`
+- Default: `[]`
+
+需要忽略翻译的文件
+
+### from
+
+- Type: `string`
+- Default: `zh`
+
+原始语言
+
+### from
+
+- Type: `string`
+- Default: `eh`
+
+目标语言
+
+查看支持的语种：https://api.fanyi.baidu.com/doc/21
+
 ### 生成格式
 
 处理前
