@@ -32,12 +32,13 @@ function mapToSettings(map) {
 }
 
 class TDict {
-  dictPath = './config'
-  langPath = './public'
+  dictPath = ''
+  langPath = ''
   i18nSettings = {}
 
   constructor(options) {
-    this.dictPath = options.dictPath
+    this.dictPath = options.dictPath || './config'
+    this.langPath = options.langPath || './public'
   }
 
   readByName(name) {

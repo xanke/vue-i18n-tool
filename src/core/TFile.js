@@ -9,14 +9,13 @@ class TFile {
   exts = ['.vue', '.js']
 
   constructor(options) {
-    this.basePath = options.basePath
+    this.basePath = options.basePath || './'
     this.filePaths = options.filePaths || []
     this.skipFiles = options.skipFiles || []
   }
 
   isInList(path) {
     path = path.replace(/\\/g, '\/')
-
     if (this.filePaths.length) {
       return this.filePaths.some(_ => path.includes(_)) && !this.skipFiles.some(_ => path.includes(_))
     } else {

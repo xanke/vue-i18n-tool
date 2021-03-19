@@ -1,7 +1,7 @@
 const Crypto = require('crypto')
 const Axios = require('axios')
-const { chunk } = require('lodash')
 const ProgressBar = require('progress')
+const { chunk } = require('lodash')
 
 function sleep(d) {
   for (var t = Date.now(); Date.now() - t <= d;);
